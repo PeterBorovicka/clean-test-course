@@ -3,6 +3,7 @@ describe('Shows Appeteasers', () => {
     cy.visit('https://hangryhippo.quantic.host/');
   });
   it('selects Handhelds', () => {
+<<<<<<< HEAD
     //Navigate to Handhelds.  This makes sure that the link actually exists.
     cy.contains('Handhelds').click();
     //Check if Cheese Burger is there.
@@ -22,3 +23,11 @@ describe('Shows Appeteasers', () => {
     cy.contains('Fajita Tacos').should('not.exist');
   });
 });
+=======
+    //TODO: Add a test to check Handhelds
+  });
+  it('selects Appeteasers', () => {
+    //TODO: Add a test to check Appeteasers
+  });
+});
+>>>>>>> 13ecf97d129a148807470f00f2e1250af302e7ef
